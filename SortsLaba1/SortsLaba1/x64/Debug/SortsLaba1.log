@@ -1,0 +1,19 @@
+﻿  Sorts.cpp
+C:\Users\User\source\repos\SortsLaba1\SortsLaba1\Sorts.cpp(223,49): warning C4244: =: преобразование "T" в "int", возможна потеря данных
+C:\Users\User\source\repos\SortsLaba1\SortsLaba1\Sorts.cpp(223,49): warning C4244:         with
+C:\Users\User\source\repos\SortsLaba1\SortsLaba1\Sorts.cpp(223,49): warning C4244:         [
+C:\Users\User\source\repos\SortsLaba1\SortsLaba1\Sorts.cpp(223,49): warning C4244:             T=double
+C:\Users\User\source\repos\SortsLaba1\SortsLaba1\Sorts.cpp(223,49): warning C4244:         ]
+C:\Users\User\source\repos\SortsLaba1\SortsLaba1\Sorts.cpp(252,64): warning C4244: =: преобразование "T" в "int", возможна потеря данных
+C:\Users\User\source\repos\SortsLaba1\SortsLaba1\Sorts.cpp(252,64): warning C4244:         with
+C:\Users\User\source\repos\SortsLaba1\SortsLaba1\Sorts.cpp(252,64): warning C4244:         [
+C:\Users\User\source\repos\SortsLaba1\SortsLaba1\Sorts.cpp(252,64): warning C4244:             T=double
+C:\Users\User\source\repos\SortsLaba1\SortsLaba1\Sorts.cpp(252,64): warning C4244:         ]
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __cdecl Sorts<int>::Sorts<int>(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int *,int)" (??0?$Sorts@H@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAHH@Z) в функции main.
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __cdecl Sorts<double>::Sorts<double>(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,double *,int)" (??0?$Sorts@N@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEANH@Z) в функции main.
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __cdecl Sorts<double>::info(void)" (?info@?$Sorts@N@@QEAAXXZ) в функции main.
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __cdecl Sorts<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::Sorts<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > *,int)" (??0?$Sorts@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAV12@H@Z) в функции main.
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __cdecl Sorts<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::info(void)" (?info@?$Sorts@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@QEAAXXZ) в функции main.
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __cdecl Sorts<char>::Sorts<char>(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,char *,int)" (??0?$Sorts@D@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEADH@Z) в функции main.
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __cdecl Sorts<char>::info(void)" (?info@?$Sorts@D@@QEAAXXZ) в функции main.
+C:\Users\User\source\repos\SortsLaba1\x64\Debug\SortsLaba1.exe : fatal error LNK1120: неразрешенных внешних элементов: 7
